@@ -1,297 +1,127 @@
-# 🧠 NoteX - Smart Note-Taking App
+# 📝 NoteX
 
-> *A powerful, open-source### 🔮 **Obsidian-Inspired Features (In Development)**
-- **Note Linking** - Connect related thoughts and ideas *(Planned)*
-- **Backlinks** ### 🔗 **Phase 4## 🔍 NoteX vs Other Apps
-
-| Feature | NoteX | Obsidian | Apple Notes | Google Keep |
-|---------|-------|----------|-------------|-------------|
-| **Price** | 🟢 Free Forever | 🟡 Free Personal | 🟢 Free | 🟢 Free |
-| **Mobile Experience** | 🟢 Native & Optimized | 🟡 Limited | 🟢 Good | 🟢 Good |
-| **Open Source** | 🟢 Fully Open Source | 🔴 Closed Source | 🔴 Closed | 🔴 Closed |
-| **Offline Access** | 🟢 Complete Support | 🟢 Yes | 🟡 Partial | 🟡 Partial |
-| **Note Linking** | 🟡 Planned | 🟢 Advanced | 🔴 No | 🔴 No |
-| **Rich Formatting** | 🟡 In Development | 🟢 Markdown | 🟢 Basic | 🟡 Limited |
-| **Cross-Platform** | 🟢 iOS/Android/Web | 🟢 All Platforms | 🟡 Apple Only | 🟢 All Platforms |ctions (Obsidian-Inspired)**
-- **Note Linking** - `[[Note Title]]` style linking
-- **Backlinks** - See which notes link to current note
-- **Link Suggestions** - Smart note connections
-- **Note References** - Easy cross-referencing note connections *(Planned)*
-- **Enhanced Search** - Advanced filtering and discovery
-- **Rich Text Editor** - Better formatting options *(Coming Soon)*
-- **Tags & Organization** - Advanced categorization system
-- **Export Options** - Multiple format support *(Planned)*aking and knowledge management app built with React Native. Inspired by Obsidian's best features, designed for mobile-first experience.*
-
-<div align="center">
+> A free, open-source note-taking app for mobile devices, inspired by Obsidian's powerful features.
 
 ![React Native](https://img.shields.io/badge/React%20Native-0.68.2-blue.svg)
-![Expo](https://img.shields.io/badge/Expo-~45.0.0-lightgrey.svg)
-![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
+![Expo](https://img.shields.io/badge/Expo-45.0.0-lightgrey.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Open Source](https://img.shields.io/badge/100%25-Open%20Source-brightgreen.svg)
+![Version](https://img.shields.io/badge/version-0.1.0-green.svg)
 
-</div>
 
-## 🎯 About NoteX
+## ✨ What is NoteX?
 
-**NoteX is a free, open-source note-taking app that brings some of Obsidian's most loved features to mobile.** While not a complete Obsidian alternative, NoteX focuses on making powerful note-taking accessible on mobile devices with select features inspired by modern knowledge management tools.
+NoteX is a mobile-first note-taking app built with React Native. It brings some of Obsidian's best features to your phone, completely free and open-source. Perfect for capturing thoughts, organizing ideas, and building your personal knowledge base on the go.
 
-## 🚀 Why Choose NoteX?
+## 🚀 Features
 
-### 💸 **Completely Free & Open Source**
-- No subscription fees or premium tiers
-- All features available to everyone
-- Community-driven development
+### ✅ Already Implemented
+- **📝 Rich Note Creation** - Full-screen writing experience
+- **🎨 Color Themes** - Beautiful gradient backgrounds for organization
+- **🔍 Instant Search** - Find any note quickly
+- **📌 Pin Notes** - Keep important notes at the top
+- **🏷️ Tags & Labels** - Organize with custom categories
+- **🗂️ Folders** - Hierarchical organization
+- **🗑️ Trash Management** - Safe deletion with recovery
+- **⏰ Reminders** - Set notifications for important notes
+- **📱 Share Notes** - Export to other apps
+- **🌙 Offline Support** - Works without internet
+- **🎯 Multi-Select** - Bulk operations on notes
+- **🔄 Drag & Drop** - Reorder notes easily
 
-### 📱 **Mobile-First Experience**
-- Native mobile app optimized for touch
-- Smooth performance on iOS & Android
-- Offline-first architecture
-- Cross-platform synchronization *(Coming Soon)*
+### 🔮 Coming Soon
+- **🔗 Note Linking** - Connect related thoughts with `[[links]]`
+- **⬅️ Backlinks** - See which notes reference current note
+- **📝 Markdown Support** - Rich text formatting
+- **☁️ Cloud Sync** - Access notes across devices
+- **📊 Simple Graph View** - Visualize note connections
+- **📤 Export Options** - PDF, Markdown, and more
 
-### 🧠 **Obsidian-Inspired Features**
-- **Smart Organization** - Folders, tags, and color coding
-- **Note Linking** - Connect related thoughts *(Planned)*
-- **Rich Text Support** - Enhanced formatting *(Coming Soon)*
-- **Search & Discovery** - Find your notes instantly
+## 📱 Installation
 
-## ✨ Current Features
-
-### � **Core Note Management**
-- **Create & Edit Notes** - Full-screen immersive writing experience
-- **Dynamic Color Coding** - Visual organization with gradient backgrounds
-- **Smart Organization** - Pin important notes to the top
-- **Instant Search** - Find any note with real-time search
-- **Drag & Drop Reordering** - Intuitive note organization
-- **Bulk Operations** - Multi-select for efficient management
-
-### 🎨 **Beautiful Interface**
-- **Modern Material Design** - Clean, intuitive user experience
-- **Custom Themes** - Personalize with vibrant color schemes
-- **Gradient Backgrounds** - Beautiful visual hierarchy
-- **Smooth Animations** - Fluid interactions with 60fps performance
-- **Responsive Layout** - Optimized for all screen sizes
-
-### ⚡ **Power Features**
-- **Smart Reminders** - Never forget important notes
-- **Share Integration** - Export notes to any platform
-- **Trash Management** - Safe deletion with easy recovery
-- **Labels & Tags** - Organize with custom categorization
-- **Offline-First** - Full functionality without internet
-- **Fast Performance** - Optimized for smooth scrolling and quick access
-
-### � **Obsidian-Style Features (In Development)**
-- **Note Linking** - Connect related thoughts and ideas
-- **Backlinks** - See all notes that reference current note
-- **Knowledge Graph** - Visual representation of note connections
-- **Markdown Editor** - Rich text formatting with live preview
-- **Folder Hierarchy** - Nested organization system
-- **Plugin Architecture** - Extensible functionality
-
-## 🛠️ Technical Stack
-
-### Frontend Framework
-- **React Native** `0.68.2` - Cross-platform mobile development
-- **Expo SDK** `~45.0.0` - Development platform and tools
-- **React** `17.0.2` - UI component library
-
-### Navigation & State
-- **React Navigation** `^6.0.11` - Screen navigation and routing
-- **Context API** - Global state management
-- **AsyncStorage** - Local data persistence
-
-### UI & Animation
-- **Expo Linear Gradient** - Beautiful gradient backgrounds
-- **React Native Reanimated** `~2.8.0` - High-performance animations
-- **Expo Vector Icons** - Comprehensive icon library
-- **React Native Gesture Handler** - Touch interactions
-
-### Enhanced Features
-- **Expo Notifications** - Push notifications and reminders
-- **React Native Actions Sheet** - Native action sheets
-- **Draggable FlatList** - Reorderable lists
-- **Expo Clipboard** - Copy/paste functionality
-- **Moment.js** - Date and time formatting
-
-### Development Tools
-- **ESLint** - Code quality and consistency
-- **Babel** - JavaScript compilation
-- **Expo CLI** - Development workflow
-
-## 📦 Installation & Setup
-
-### Prerequisites
-- **Node.js** (v14 or higher)
-- **npm** or **yarn**
-- **Expo CLI** (optional but recommended)
-- **Git**
-
-### Quick Start
-
-1. **Clone the repository**
+### For Users
+1. **Download Expo Go** from App Store or Google Play
+2. **Clone this repository**:
    ```bash
-   git clone https://github.com/SiddarthaKarri/notex.git
-   cd notex
+   git clone https://github.com/SiddarthaKarri/NoteX.git
+   cd NoteX
    ```
-
-2. **Install dependencies**
+3. **Install dependencies**:
    ```bash
    npm install
-   # or
-   yarn install
    ```
-
-3. **Start the development server**
+4. **Start the app**:
    ```bash
    npm start
-   # or
-   expo start
    ```
+5. **Scan QR code** with Expo Go app
 
-4. **Run on your device**
-   - **Mobile**: Download Expo Go app and scan QR code
-   - **iOS Simulator**: Press `i` in terminal
-   - **Android Emulator**: Press `a` in terminal
-   - **Web Browser**: Press `w` in terminal
+### For Developers
+```bash
+# Clone repository
+git clone https://github.com/SiddarthaKarri/NoteX.git
+cd NoteX
 
-## 🏗️ Project Structure
+# Install dependencies
+npm install
 
-```
-notex/
-├── 📁 components/          # Reusable UI components
-│   ├── ActionButton.js     # Floating action button
-│   ├── FolderCard.js       # Folder display component
-│   ├── Modal.js            # Custom modal wrapper
-│   ├── NoteCard.js         # Individual note display
-│   ├── NoteOptionsActionSheet.js # Note actions menu
-│   ├── NoteReminderModal.js # Reminder setting modal
-│   ├── Notes.js            # Notes list container
-│   └── NotesPageHeader.js  # Header with search
-├── 📁 screens/             # Application screens
-│   ├── AddNote.js          # Create new note
-│   ├── UpdateNote.js       # Edit existing note
-│   ├── Home.js             # Main notes dashboard
-│   ├── Folders.js          # Folder management
-│   ├── FolderNotes.js      # Notes within folders
-│   ├── LabelsManager.js    # Label management
-│   ├── NoteLabelsManager.js # Note-label assignment
-│   ├── NotesSelector.js    # Multi-note selection
-│   └── Trash.js            # Deleted notes
-├── 📁 context/             # Global state management
-│   └── context.jsx         # Notes context provider
-├── 📁 Notifications/       # Push notification system
-│   ├── scheduleReminderNotification.js
-│   ├── cancelNotification.js
-│   └── useNotifications.js
-├── 📁 style/               # Design system
-│   └── theme.js            # Colors, spacing, typography
-├── 📁 utils/               # Utility functions
-│   ├── storage.js          # AsyncStorage helpers
-│   └── dateformat.js       # Date formatting
-├── 📁 assets/              # Images and icons
-└── AppNavigator.js         # Navigation configuration
+# Start development server
+npm start
+
+# Run on specific platform
+npm run android  # Android emulator
+npm run ios      # iOS simulator
+npm run web      # Web browser
 ```
 
-## 🗺️ Development Roadmap
+## 🏗️ Tech Stack
 
-### 🎯 **Phase 1: Core Foundation (Current)**
-- ✅ Basic note creation and editing
-- ✅ Search and organization
-- ✅ Tags and color coding
-- ✅ Mobile-optimized interface
-- ✅ Offline functionality
+- **React Native** - Cross-platform mobile development
+- **Expo** - Development platform and tools
+- **AsyncStorage** - Local data storage
+- **React Navigation** - Screen navigation
+- **Linear Gradient** - Beautiful UI gradients
+- **Reanimated** - Smooth animations
 
-### 🔗 **Phase 2: Enhanced Organization (Next)**
-- **Improved Search** - Advanced filtering and sorting
-- **Better Tags** - Hierarchical tag system
-- **Note Templates** - Quick note creation with templates
-- **Enhanced Folders** - Better folder management
+## 📊 NoteX vs Others
 
-### � **Phase 3: Rich Text & Formatting**
-- **Rich Text Editor** - Better formatting options
-- **Markdown Support** - Basic markdown rendering
-- **Media Attachments** - Images and file support
-- **Export Features** - PDF, text, and other formats
+| Feature | NoteX | Obsidian | Apple Notes | Notion |
+|---------|-------|----------|-------------|--------|
+| **Free** | ✅ | ✅ Personal | ✅ | ✅ Limited |
+| **Open Source** | ✅ | ❌ | ❌ | ❌ |
+| **Mobile Optimized** | ✅ | ⚠️ | ✅ | ⚠️ |
+| **Offline First** | ✅ | ✅ | ⚠️ | ❌ |
+| **Note Linking** | 🔄 Soon | ✅ | ❌ | ✅ |
+| **Simple UI** | ✅ | ⚠️ | ✅ | ⚠️ |
+| **Fast Startup** | ✅ | ⚠️ | ✅ | ❌ |
 
-### � **Phase 4: Advanced Markdown**
-- **Live Markdown Editor** - Real-time preview with syntax highlighting
-- **Mathematical Equations** - LaTeX support for formulas
-- **Code Blocks** - Syntax highlighting for programming languages
-- **Tables & Lists** - Rich formatting options
-
-### ☁️ **Phase 5: Synchronization & Backup**
-- **Cloud Sync** - Cross-device note access
-- **Backup System** - Secure note backups
-- **Import/Export** - Multiple format support
-- **Version History** - Basic change tracking
-
-## � NoteX vs Obsidian
-
-| Feature | NoteX | Obsidian |
-|---------|-------|----------|
-| **Price** | 🟢 Free Forever | 🟡 Free Personal, Paid Commercial |
-| **Mobile App** | 🟢 Native & Optimized | 🟡 Available but limited |
-| **Open Source** | 🟢 Fully Open Source | 🔴 Closed Source |
-| **Offline Access** | 🟢 Complete Offline Support | 🟢 Yes |
-| **Graph View** | 🟡 Coming Soon | 🟢 Advanced |
-| **Plugin System** | 🟡 Planned | 🟢 Extensive |
-| **Markdown Support** | 🟡 In Development | 🟢 Full Support |
-| **Community** | 🟡 Growing | 🟢 Large & Active |
+**Legend**: ✅ Yes | ❌ No | ⚠️ Limited | 🔄 Coming Soon
 
 ## 🤝 Contributing
 
-We welcome contributions from the community! Here's how you can help:
+We welcome contributions! Here's how to help:
 
-### 🐛 Bug Reports
-Found a bug? Please create an issue with:
-- Clear description of the problem
-- Steps to reproduce
-- Expected vs actual behavior
-- Device/platform information
-
-### 💡 Feature Requests
-Have an idea? We'd love to hear it:
-- Describe the feature and its benefits
-- Provide use cases and examples
-- Consider implementation complexity
-
-### 💻 Code Contributions
-Ready to code? Follow these steps:
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-### 🔒 Security
-Discovered a security vulnerability? Please email us at security@notex.app
+1. **🐛 Report Bugs** - Open an issue with details
+2. **💡 Suggest Features** - Share your ideas
+3. **💻 Submit Code** - Fork, code, and create a pull request
+4. **📖 Improve Docs** - Help make documentation better
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+MIT License - see [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## 🔗 Links
 
-- **Obsidian Team** for inspiring the vision of connected knowledge
-- **Expo Team** for the amazing development platform
-- **React Native Community** for continuous innovation
-- **Open Source Contributors** who make free software possible
-
-## 📞 Contact & Support
-
-- **Email**: support@notex.app
-- **Issues**: [GitHub Issues](https://github.com/yourusername/notex/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/notex/discussions)
-- **Discord**: [Join our community](https://discord.gg/notex) *(Coming Soon)*
+- **GitHub**: [SiddarthaKarri/NoteX](https://github.com/SiddarthaKarri/NoteX)
+- **Issues**: [Report a bug](https://github.com/SiddarthaKarri/NoteX/issues)
+- **Discussions**: [Join the conversation](https://github.com/SiddarthaKarri/NoteX/discussions)
 
 ---
 
 <div align="center">
 
-**🧠 Making knowledge management accessible to everyone 🧠**
+**Made with ❤️ for note-taking enthusiasts**
 
-*"Your second brain shouldn't cost you your first paycheck"*
-
-**⭐ Star this repository to support free, open-source knowledge tools! ⭐**
+⭐ **Star this repo if you find it useful!** ⭐
 
 </div>
