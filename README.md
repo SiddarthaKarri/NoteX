@@ -13,7 +13,22 @@
 
 NoteX is a mobile-first note-taking app built with React Native. It brings some of Obsidian's best features to your phone, completely free and open-source. Perfect for capturing thoughts, organizing ideas, and building your personal knowledge base on the go.
 
-## 🚀 Features
+## � Screenshots
+
+<div align="center">
+
+### 🏠 Home Screen & Note Creation
+<img src="screenshots/home-screen.png" width="300" alt="Home Screen" /> <img src="screenshots/create-note.png" width="300" alt="Create Note" />
+
+### 🎨 Color Themes & Organization
+<img src="screenshots/color-themes.png" width="300" alt="Color Themes" /> <img src="screenshots/folders.png" width="300" alt="Folders" />
+
+### 🔍 Search
+<img src="screenshots/search.png" width="300" alt="Search" /> 
+
+</div>
+
+## �🚀 Features
 
 ### ✅ Already Implemented
 - **📝 Rich Note Creation** - Full-screen writing experience
